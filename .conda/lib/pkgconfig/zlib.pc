@@ -1,0 +1,13 @@
+prefix=/workspaces/My-first-streamlit-Project/.conda
+exec_prefix=/workspaces/My-first-streamlit-Project/.conda
+libdir=/workspaces/My-first-streamlit-Project/.conda/lib
+sharedlibdir=/workspaces/My-first-streamlit-Project/.conda/lib
+includedir=/workspaces/My-first-streamlit-Project/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
